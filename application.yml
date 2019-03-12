@@ -1,0 +1,18 @@
+spring: 
+  profile: 
+    active: 
+    - dev
+
+---
+
+spring: 
+  profile: dev
+  application:
+    name: dept
+
+---
+
+spring: 
+  profile: test
+  application:
+    name: dept-test
